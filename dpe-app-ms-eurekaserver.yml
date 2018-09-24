@@ -1,0 +1,16 @@
+## Configure Application
+  spring:
+      application:
+        name: dpe-app-ms-eurekaserver
+  server:
+    servlet:
+      context-path: dpe-app-ms-eurekaserver
+    port: 8761
+
+## Eureka Server Configurations
+  eureka:
+    instance:
+      hostname: devinspirare
+    client:
+      register-with-eureka: false
+      fetch-registry: false
